@@ -1,0 +1,130 @@
+# =========================
+# Python/FastAPI Backend
+# =========================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.env/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Environment variables
+*.env
+.env.*
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# Pylint
+pylint-report.txt
+pylint-output.txt
+
+# Logs
+logs/
+*.log
+celerybeat-schedule
+celerybeat.pid
+
+# SQL and database
+*.sqlite3
+*.db
+*.sql
+
+# Static / Uploaded files
+media/
+staticfiles/
+uploads/
+
+# Cache
+__pypackages__/
+.pytype/
+*.pyc
+*.pyo
+
+# VSCode and IDE settings
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Docker
+docker-compose.override.yml
+.docker/
+docker-data/
+*.pid
+
+# Mac / Windows
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Optional cache / runtime files
+*.pid
+*.seed
+*.lock
+*.bak
+*.swp
+*.tmp
+tmp/
+temp/
+.cache/
+
+# Redis / Celery / Queue data
+celery_data/
+redis_data/
+
+# Local development
+dev_data/
+__local__/
